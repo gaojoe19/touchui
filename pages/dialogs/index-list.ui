@@ -439,7 +439,7 @@
       }, 
       singleTap(msg){
         console.log(msg)
-        this.place = this.tagsData[msg].text
+        this.place = this.tagsData[msg.index].text
         ui.hideDialog({country: this.place})
       },
       singleselect (msg) {
