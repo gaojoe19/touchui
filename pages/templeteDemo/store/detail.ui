@@ -752,15 +752,15 @@ export default {
       // ui.showToast({
       //   title: this.colors[opt].text
       // })
-      this.colorText = this.colors[opt].text
+      this.colorText = this.colors[opt.index].text
       this.colors.forEach((item, index) => {
-        item.checked = (index === opt)
+        item.checked = (index === opt.index)
       })
     },
     singleTap2 (opt) {
-      this.size = this.sizes[opt].text
+      this.size = this.sizes[opt.index].text
       this.sizes.forEach((item, index) => {
-        item.checked = (index === opt)
+        item.checked = (index === opt.index)
       })
     },
     subtraction (val) {
