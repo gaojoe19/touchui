@@ -38,8 +38,8 @@ export default {
       this.scrollTop = this.scrollTop + 20
     },
     backTop () {
-      this.scrollTop = 0
-      this.scrollTop = this.scrollTop + 1
+      // this.scrollTop = 0
+      this.scrollTop += 1
     },
     bindscrolltoupper(){
       console.log('1231312')
