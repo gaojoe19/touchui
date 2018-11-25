@@ -29,7 +29,7 @@
                       <ui-view>
                         <ui-input ui:model="{{ loginPassword }}" type="password" name="password" placeholder="登录密码" placeholder-style="color:#9C9C9C" ></ui-input>
                       </ui-view>
-                      <ui-button formType="submit" type="primary" class="submit" bindtap="login">登录</ui-button>
+                      <ui-button form-type="submit" type="primary" class="submit" bindtap="login">登录</ui-button>
                     </ui-form>
                   </ui-view>
                   <!-- 3 -->
@@ -86,7 +86,7 @@
                       </ui-col>
                     </ui-row>
                     <!-- <ui-view class="submit">下一步</ui-view> -->
-                    <ui-button formType="submit" type="primary" class="submit" bindtap="register">注册</ui-button>
+                    <ui-button form-type="submit" type="primary" class="submit" bindtap="register">注册</ui-button>
                     <ui-view class="have_account" bindtap="loginPage2">已有账户，点击登录</ui-view>
                   </ui-form>
                 </ui-view>
@@ -116,7 +116,7 @@
                 <ui-input ui:model="{{ pwd }}" type="password" name="pwd" placeholder="登录密码" placeholder-style="color:#9C9C9C" ></ui-input>
               </ui-view>
               <ui-view style="line-height:45px;padding-left:10px;margin-top:20px;border:0;color:#999;">如果该手机号账号未注册，会自动注册并绑定</ui-view>
-              <ui-button formType="submit" type="primary" class="" bindtap="bindAccount">绑定该账号</ui-button>
+              <ui-button form-type="submit" type="primary" class="" bindtap="bindAccount">绑定该账号</ui-button>
             </ui-form>
           </ui-view>
         </ui-view>
