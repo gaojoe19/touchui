@@ -74,7 +74,7 @@
                     <ui-row height="50" border-bottom>
                       <ui-col vertical-align="bottom">
                         <!-- <ui-input name="code" placeholder="请输入验证码" maxlength="8" placeholder-style="color:#9C9C9C" ></ui-input> -->
-                        <ui-sms-input ui:model="{{ code }}" second="30" initText="获取验证码" bindsend="smsCode"></ui-sms-input>
+                        <ui-sms-input ui:model="{{ code }}" second="30" init-text="获取验证码" bindsend="smsCode"></ui-sms-input>
                       </ui-col>
                       <!-- <ui-col width="80" align="center" vertical-align="middle">
                         <ui-view>获取验证码<ui-view>
