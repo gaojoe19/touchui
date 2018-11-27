@@ -96,7 +96,7 @@
         <ui-row>
           <ui-col width="80">
             <span class="back" bindtap="handleBack" ui:show="{{showBack}}">
-              <ui-icon type="arrow-left" font-size="24"></ui-icon>返回
+              <ui-icon type="arrow-left" size="24"></ui-icon>返回
             </span>
             <span class="back" ui:show="{{!showBack}}" bindtap="handleNavIconTap">
               <ui-icon type="list" color="#2B333B" size="16"></ui-icon>
