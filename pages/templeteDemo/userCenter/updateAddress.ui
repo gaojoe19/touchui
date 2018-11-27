@@ -212,18 +212,18 @@ export default {
       text-align: center;
       line-height: 25px;
       margin-top: 5px;
-      &.select-class{
-        border-radius: 5px;
-        width: 65px;
-        text-align: center;
-        line-height: 25px;
-        margin-top: 5px;
-        border: 1px solid #B9DAFE;
-        background: #F8FBFF;
-        color: #3785E4;
-      }
+      
     }
-    
+    .select-class{
+      border-radius: 5px;
+      width: 65px;
+      text-align: center;
+      line-height: 25px;
+      margin-top: 5px;
+      border: 1px solid #B9DAFE;
+      background: #F8FBFF;
+      color: #3785E4;
+    }
   }
 }
 .sure{
