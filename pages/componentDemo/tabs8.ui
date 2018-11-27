@@ -4,7 +4,7 @@
     <ui-nav-bar class="ui-nav-bar" slot="nav-bar" ui:show="{{swiper1}}">
       <ui-row>
         <ui-col width="40" bindtap="handleBack">
-          <ui-icon type="arrow-left" font-size="24"></ui-icon>
+          <ui-icon type="arrow-left" size="24"></ui-icon>
         </ui-col>
         <ui-col align="center">
           <ui-text>商品详情</ui-text>
@@ -16,7 +16,7 @@
     <ui-nav-bar class="ui-nav-bar" slot="nav-bar" ui:show="{{swiper2}}">
       <ui-row>
         <ui-col width="40" vertiacl-align="middle" bindtap="backTop">
-          <ui-icon type="arrow-left" font-size="24"></ui-icon>
+          <ui-icon type="arrow-left" size="24"></ui-icon>
         </ui-col>
         <ui-col align="center">
          <ui-view style="width:150px;margin:0 auto;">
