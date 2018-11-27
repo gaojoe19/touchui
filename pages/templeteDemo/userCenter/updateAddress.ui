@@ -189,7 +189,7 @@ export default {
       font-weight: 600;
       color: #050505;
       &.name1{
-        padding-top: 10px;
+        padding-top: 7px;
       }
     }
     .ui-input{
