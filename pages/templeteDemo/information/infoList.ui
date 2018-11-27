@@ -20,7 +20,7 @@
         <ui-row>
           <ui-col width="80" bindtap="navigateBack" algin="center">
             <ui-view style="width:80px">
-              <ui-icon type="arrow-left" font-size="24"></ui-icon>
+              <ui-icon type="arrow-left" size="24"></ui-icon>
               <ui-text>返回</ui-text>
             </ui-view>
           </ui-col>
