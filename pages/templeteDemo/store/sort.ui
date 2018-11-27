@@ -34,7 +34,7 @@
             <ui-v-tab ui:for="{{ tabItems }}">
               {{ item.name }}
             </ui-v-tab>
-          </ui-tabs>
+          </ui-v-tabs>
         </ui-view>
         <ui-ex-swiper
           class="tab-content"
