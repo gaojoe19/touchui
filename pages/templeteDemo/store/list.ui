@@ -3,7 +3,7 @@
       <ui-nav-bar class="ui-nav-bar" slot="nav-bar">
       <ui-row>
         <ui-col width="40" bindtap="navigateBack">
-          <ui-icon type="arrow-left" font-size="24"></ui-icon>
+          <ui-icon type="arrow-left" size="24"></ui-icon>
         </ui-col>
         <ui-col align="center">
           <ui-text>商品列表</ui-text>
