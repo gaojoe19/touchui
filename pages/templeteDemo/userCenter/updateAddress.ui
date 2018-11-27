@@ -133,12 +133,12 @@ export default {
     },
     singleTap1 (opt) {
       this.tag1.forEach((item, index) => {
-        item.checked = (index === opt)
+        item.checked = (index === opt.index)
       })
     },
     singleTap2 (opt) {
       this.tag2.forEach((item, index) => {
-        item.checked = (index === opt)
+        item.checked = (index === opt.index)
       })
     },
     pick () {
