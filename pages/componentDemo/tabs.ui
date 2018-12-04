@@ -280,7 +280,7 @@ export default {
     },
     handleChangeBadge(index, key){
       this[key] = index
-      if(key === 1){
+      if(index === 1){
         this.showBadge3 = false
       }
     },
