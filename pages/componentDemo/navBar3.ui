@@ -34,7 +34,7 @@
                   <ui-col vertical-align="middle" align="center" width="30">
                     <ui-icon type="qrcode"></ui-icon>
                   </ui-col>
-                  <ui-col vertical-align="middle" space-left="5" vertical-align="middle" space-left="5">收付款</ui-col>
+                  <ui-col vertical-align="middle" space-left="5">收付款</ui-col>
                 </ui-row>
               </ui-view>
               <ui-view class="popover_item">
